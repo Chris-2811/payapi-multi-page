@@ -10,7 +10,7 @@ function Button({ variant = 'primary', children, ...props }) {
     'secondary-light':
       'bg-secondary-200 px-8 border pt-4 pb-[0.875rem] hover:bg-primary-200 text-white  hover:text-secondary-200 font-bold',
     'secondary-dark':
-      'bg-transparent border border-secondary-100 w-[168px] pt-4 pb-[0.875rem] hover:bg-secondary-100 hover:text-white',
+      'bg-transparent text-secondary-100 border border-secondary-100 w-[168px] pt-4 pb-[0.875rem] hover:bg-secondary-100 hover:text-white',
     'secondary-dark-sm':
       'bg-transparent border border-secondary-100 w-[152px] pt-4 pb-[0.875rem] hover:bg-secondary-100 hover:text-white',
   };

@@ -14,7 +14,11 @@ function Home() {
       <Implement />
       <UI />
       <Features />
-      <CTA />
+      <div className="myContainer">
+        <div className="my-20 md:my-[6.25rem]">
+          <CTA />
+        </div>
+      </div>
     </div>
   );
 }

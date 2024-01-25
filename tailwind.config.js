@@ -32,6 +32,23 @@ export default {
         custom: 'auto auto 1fr',
         'custom-pricing': 'auto 1fr auto auto auto',
       },
+      transitionProperty: {
+        opacity: 'opacity',
+        transform: 'transform',
+      },
+      transitionDuration: {
+        500: '500ms',
+        1500: '1500ms',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 750ms ease-out forwards',
+      },
     },
   },
   plugins: [],

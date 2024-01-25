@@ -9,7 +9,7 @@ import Button from '../Button';
 
 function PartnersContact() {
   return (
-    <div className=" md:px-0 md:max-w-[541px] mx-auto my-20 md:mt-16 mb-[6.25rem] xl:mx-0">
+    <div className=" md:px-0 md:max-w-[541px] mx-auto mt-20 md:mt-16  xl:mx-0 xl:mb-28">
       <h1 className="text-secondary-100/75 max-w-[445px] mx-auto text-2xl font-serif mb-10 lg:mb-12 xl:mx-0">
         Join the thousands of innovators already building with us
       </h1>

@@ -117,7 +117,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
-  -webkit-text-fill-color: #fff !important;
+  -webkit-text-fill-color: #36536b !important;
 }
 
 /* .sr-only class: visually hidden but accessible to screen readers */
@@ -209,4 +209,8 @@ body {
   background: #edf3f8;
   font-size: 0.9375rem;
   @apply font-sans;
+}
+
+.icon-light path {
+  fill: white;
 }

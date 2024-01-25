@@ -4,9 +4,13 @@ import HeroAbout from '../components/about/HeroAbout';
 
 function About() {
   return (
-    <div className="mt-12 md:mt-[3.5rem] lg:mt-[5.25rem]">
+    <div className="mt-12 md:mt-[3.5rem] lg:mt-[5.125rem]">
       <HeroAbout />
-      <CTA />
+      <div className="mt-12 mb-20 md:mt-[4.5rem] md:mb-[6.25rem]">
+        <div className="myContainer">
+          <CTA />
+        </div>
+      </div>
     </div>
   );
 }
